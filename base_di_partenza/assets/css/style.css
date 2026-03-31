@@ -168,12 +168,16 @@ h1 + p {
     transform: translateX(-50%);
   }
 
-  .fas.fa-tag {
-    color: grey;
-    opacity: 50%;
+  aside > div {
+    position: relative;
+  }
+  .etichetta {
+    color: rgba(192, 192, 192, 0.808);
     position: absolute;
-    font-size: 3em;
-    right: 2em;
+    font-size: 2.5em;
+    right: 0;
+    top: 0;
+    padding: 0.2em;
   }
   .far.fa-plus-square {
     color: blue;
@@ -209,17 +213,6 @@ h1 + p {
     position: fixed;
     bottom: 1em;
     right: 0.1em;
-  }
-  aside > div {
-    position: relative;
-  }
-  .etichetta {
-    color: rgba(192, 192, 192, 0.808);
-    position: absolute;
-    font-size: 2.5em;
-    right: 0;
-    top: 0;
-    padding: 0.2em;
   }
 }
 
