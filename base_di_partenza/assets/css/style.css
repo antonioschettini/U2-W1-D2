@@ -159,6 +159,7 @@ h1 + p {
   header {
     position: sticky;
     top: 0;
+    z-index: 1;
   }
 
   section h2 {
@@ -240,6 +241,7 @@ p:nth-child(3) {
 header {
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 section h2 {
@@ -270,6 +272,7 @@ aside > div {
   position: fixed;
   bottom: 7em;
   right: 0.1em;
+  z-index: 2;
 }
 
 .far.fa-calendar-alt {
@@ -282,6 +285,7 @@ aside > div {
   position: fixed;
   bottom: 4em;
   right: 0.1em;
+  z-index: 2;
 }
 
 .far.fa-caret-square-up {
@@ -294,6 +298,7 @@ aside > div {
   position: fixed;
   bottom: 1em;
   right: 0.1em;
+  z-index: 2;
 }
 
 @media screen and (min-width: 700px) {
